@@ -100,7 +100,7 @@ body.dark-theme{
 
 /*==================== BASE ====================*/
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding: 0;
   margin: 0;
 }
@@ -691,6 +691,7 @@ img {
 
 .projects__modal-content{
   position: relative;
+  
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: .5rem;
@@ -1336,7 +1337,7 @@ img {
   }
 
   .projects__modal-content{
-    width: 450px;
+    width: 800px;
   }
 
   .paper__img{
