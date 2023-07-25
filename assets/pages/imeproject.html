@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Automation Lab Term Project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="..\css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="..\css/styles.css">
+    
+    <link type="text/css" href="../src/pdfSlider.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../src/pdfSlider.js"></script>
+
+    <script type="text/javascript">
+        $(function($) {
+            $("#carousel").pdfSlider();
+        });
+    </script>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Dylan Tabalan</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="\index.html#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="\index.html#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="\index.html#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="\index.html#projects" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="\index.html#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme Change Buttons -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home" data-id="home">
+            <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Automation Lab Term Project</h1>
+                        <h3 class="home__subtitle">IME 356: Manufacturing Automation</h3>
+                        <p class="home__description">Developed 3 lab sessions worth of lab material for undergraduates to learn about Yaskawa’s MP2300Siec controller, MotionWorks 3 IEC,
+                             and control of 2 servo motors based on Yaskawa product orientations. The goal is for students to use ladder logic/diagrams and function block code
+                            to execute mechanical/manufacturing functions such as electronic gearing, and electronic camming.</p>
+                        <a href="\index.html#projects" class="button button--flex">
+                            <i class="uil uil-arrow-left button__icon"></i>Back
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="videos__container container grid">
+                <div class="videos__content-top">
+                    <div class="iframe__container">
+                        <span class="videos__subtitle">Term Project Demonstration</span>
+                        <iframe class="iframe" width="110%" height="100%" src="https://youtube.com/embed/CHPY9Bz-tpQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>           
+             </div>
+        </section>
+    </main>
+    
+
+<!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <a href="#" class="footer__title">Dylan Tabalan</a><br>
+                        <span class="footer__subtitle">Mechanical Engineer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="\index.html#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="\index.html#projects" class="footer__link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="\index.html#videos" class="footer__link">Videos</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/dtabalan/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/dtabalan" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; All rights reserved.</p>
+            </div>
+        </footer>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="..\js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="..\js/main.js"></script>
+</body>
+</html>
